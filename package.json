@@ -1,0 +1,31 @@
+{
+  "name": "vanakkam-react",
+  "version": "1.0.0",
+  "description": "Funniest description ever",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anijayn/vanakkam-react.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "lost"
+  ],
+  "author": "Anirudh Gomathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anijayn/vanakkam-react/issues"
+  },
+  "homepage": "https://github.com/anijayn/vanakkam-react#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
