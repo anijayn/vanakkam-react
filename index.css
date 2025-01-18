@@ -1,3 +1,53 @@
 #heading {
     color: red;
 }
+
+.header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+.search-box {
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.search-box input {
+    width: 200px;
+    height: 20px;
+    padding: 0;
+}
+
+.search-box input,
+.search-box button {
+    height: 30px; /* Set the height for both input and button */
+    padding: 0;   /* Remove any padding */
+    margin: 0;    /* Remove any margin */
+    font-size: 14px; /* Set font size for consistent text and emoji size */
+    line-height: 20px; /* Vertically center text/emoji */
+    box-sizing: border-box; /* Include padding and border in height calculation */
+}
+
+.search-box button {
+    width: 50px; /* Set a fixed width for the button */
+    justify-content: center; /* Center the emoji horizontally */
+    align-items: center; /* Center the emoji vertically */
+    background: white; /* Remove default background */
+    border: 1px solid #000; /* Optional: Add border to button */
+}
+
+.search-box input {
+    width: 200px; /* Set the width of the input */
+}
+
+
+.logo, .user-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.user-icon{
+    color: white;
+}
